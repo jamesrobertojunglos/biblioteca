@@ -23,8 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-
-        // Passar quantidades de Dados - para criar um DashBoar
         return view('home');
     }
 }
