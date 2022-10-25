@@ -7,7 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
     <title>{{ config('app.name', 'Laravel') }}</title>
+=======
+    <title>{{ config('app.name', 'Biblioteca') }}</title>
+>>>>>>> ac6f33325b6c5a0c26ac3facc18fba26cdf38b34
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -30,7 +34,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+<<<<<<< HEAD
                         contato
+=======
+
+>>>>>>> ac6f33325b6c5a0c26ac3facc18fba26cdf38b34
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -73,9 +81,16 @@
         </nav>
 
         <main class="py-4">
+<<<<<<< HEAD
+=======
+            <div class'container-fluid'>
+>>>>>>> ac6f33325b6c5a0c26ac3facc18fba26cdf38b34
             @yield('content')
         </main>
     </div>
 </body>
 </html>
+<<<<<<< HEAD
 ....
+=======
+>>>>>>> ac6f33325b6c5a0c26ac3facc18fba26cdf38b34
